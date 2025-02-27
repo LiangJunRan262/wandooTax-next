@@ -1,0 +1,23 @@
+{
+    "greeting": "Hello!",
+    "serviceClass": {
+        "serviceClassTitle": "Services",
+        "personalTitle": "Personal Tax Services (T1)",
+        "personalDescription": "We help you organize and optimize your personal tax filings, covering income, investments, real estate, and foreign assets.",
+        "businessTitle": "Corporate Tax Services (T2)",
+        "businessDescription": "We assist Canadian businesses with preparing and optimizing financial statements to ensure compliance, and reduced tax burdens.",
+        "voluntaryDisclosureTitle": "Voluntary Disclosure",
+        "voluntaryDisclosureDescription": "If you’ve missed reporting assets or income to the CRA, we guide you to correct past mistakes and minimize penalties.",
+        "gstHstTitle": "GST/HST Filing & Tax Planning",
+        "gstHstDescription": "We ensure your business meets its GST/HST obligations on time, minimizing tax exposure and avoiding potential CRA issues."
+    },
+    "industryClass": {
+        "industryTitle": "Industries",
+        "student": "Students",
+        "broker": "Agents",
+        "catering": "Catering",
+        "engineer": "Engineers",
+        "driver": "Drivers",
+        "medical": "Medical"
+    }
+}

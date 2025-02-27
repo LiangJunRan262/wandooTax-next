@@ -1,0 +1,23 @@
+{
+    "greeting": "你好！",
+    "serviceClass": {
+        "serviceClassTitle": "服务分类",
+        "personalTitle": "个人税务（T1）",
+        "personalDescription": "帮助您整理税务信息、优化规划，确保合规并最大限度降低税务负担，涵盖收入、投资、房地产及海外资产等领域。",
+        "businessTitle": "企业税务（T2）",
+        "businessDescription": "协助整理和优化企业财务报表（包括资产负债表、损益表与现金流量表），确保按时申报并合规，降低税务负担与风险。",
+        "voluntaryDisclosureTitle": "自愿披露",
+        "voluntaryDisclosureDescription": "协助您主动向加拿大税务局（CRA）披露未申报的大额财产，解决因疏漏或误报导致的税务问题，降低可能产生的法律责任、罚款和利息，确保合规。",
+        "gstHstTitle": "GST/HST退税申报",
+        "gstHstDescription": "提供全面的GST/HST申报与规划服务，帮助您按时、准确地履行税务义务，优化税务负担，并确保合规，避免潜在税务风险。"
+    },
+    "industryClass": {
+        "industryTitle": "行业分类",
+        "student": "学生",
+        "broker": "经纪人",
+        "catering": "餐饮",
+        "engineer": "工程师",
+        "driver": "驾驶员",
+        "medical": "医护"
+    }
+}
