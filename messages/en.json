@@ -19,5 +19,34 @@
         "engineer": "Engineers",
         "driver": "Drivers",
         "medical": "Medical"
+    },
+    "commitment": {
+        "commitmentTitle": "Our Commitment",
+        "list": {
+            "major": {
+                "title": "Secure & Confidential",
+                "description": "We prioritize the security of your personal information. Our systems are designed to keep your data safe and confidential. Your sensitive information is protected."
+            },
+            "convenient": {
+                "title": "Expert Guidance",
+                "description": "As a team of experienced CPAs with years of expertise at leading global accounting firms, we take pride in offering tailored, precise tax solutions."
+            },
+            "transparent": {
+                "title": "Simplified & Efficient with Efile",
+                "description": "With Efile, we ensure your filings are accurate, completed on time, and submitted directly to the CRA—without the hassle."
+            },
+            "maximize": {
+                "title": "Maximizing Your Tax Savings",
+                "description": "Our focus is on minimizing your tax burden. We work hard to maximize your return and protect your financial interests, now and in the future."
+            },
+            "reasonable": {
+                "title": "Fair, Transparent Pricing",
+                "description": "Quality service doesn’t have to come with hidden fees. We offer fair, transparent pricing so that you know exactly what to expect without any surprises."
+           },
+            "lasting": {
+                "title": "Building Lasting Relationships",
+                "description": "We’re not just here for your current tax needs—we want to be your long-term partner."
+            }
+        }
     }
 }

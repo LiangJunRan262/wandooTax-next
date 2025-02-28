@@ -7,7 +7,7 @@ import '@aws-amplify/ui-react/styles.css';
 import Nav from "@/app/component/Nav";
 import ServiceClass from "@/app/component/ServiceClass";
 import IndustryClass from "@/app/component/IndustryClass";
-
+import Commitment from "@/app/component/Commitment";
 
 Amplify.configure(outputs);
 
@@ -20,6 +20,7 @@ export default function App() {
             <Nav />
             <ServiceClass />
             <IndustryClass />
+            <Commitment />
         </main>
     );
 }
