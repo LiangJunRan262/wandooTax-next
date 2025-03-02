@@ -48,5 +48,50 @@
                 "description": "我们不仅关注眼前的税务需求，更致力于建立长期、稳定的合作关系，为您的未来提供持续的税务支持。"
             }
         }
+    },
+    "price": {
+        "priceTitle": "我们的价格"
+    },
+    "knowUs": {
+        "knowUsTitle": "认识我们",
+        "GraceHao": {
+            "name": "Grace Hao",
+            "position": "CPA，合伙人，首席审计师，高级税务规划师",
+            "description": "四大会计事务所高级审计师，12年税务经验，专注于审计和税务规划，确保企业和个人的税务合规性。"
+        },
+        "KnightWang": {
+            "name": "Knight Wang",
+            "position": "高级合伙人，高级税务规划师，审计师",
+            "description": "拥有超过14年公司财务经验，及8年加拿大公司税务经验，专注于企业税务规划与优化，擅长各种疑难杂症申报。"
+        },
+        "MichaelChen": {
+            "name": "Michael Chen",
+            "position": "税务师，运营经理，兼任美国Cimpress (Vista) 公司高级检察员",
+            "description": "拥有超过6年的税务经验，专注于个人所得税，擅长处理复杂税务情况，拥有丰富的实战经验和专业知识。"
+        },
+        "DominicWang": {
+            "name": "Dominic Wang",
+            "position": "运营助理",
+            "description": "曾任携程高级产品经理，7年系统设计及软件开发经验，专注于简化报税流程，提高用户提体验与效率。"
+        }
+    },
+    "tool": {
+        "toolTitle": "常用工具",
+        "childcare": {
+            "title": "儿童和家庭福利计算器",
+            "description": "你可以使用这个计算器来查看你可以获得哪些儿童和家庭福利以及你的补助金额是多少。"
+        },
+        "RRSP": {
+            "title": "RRSP 计算器",
+            "description": "查看您可以在注册退休储蓄计划 (RRSP) 中节省多少钱。"
+        },
+        "car": {
+            "title": "汽车福利计算器",
+            "description": "你可以使用这个计算器来查看你可以获得哪些汽车福利以及你的补助金额是多少。"
+        },
+        "salary": {
+            "title": "工资计算器",
+            "description": "加拿大税务局的工资扣除额在线计算器根据您提供的信息（工资、佣金、养老金、CPP 供款、EI）计算所有省份和地区的联邦和省级工资扣除额 。"
+        }
     }
 }

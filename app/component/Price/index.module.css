@@ -1,0 +1,26 @@
+
+.priceCon {
+
+}
+
+.priceItem1 {
+    background: #F0FAFD;
+    border-radius: 8px;
+    width: 413px;
+    height: 346px;
+    padding: 24px;
+}
+
+.priceItem1Title {
+    text-align: center;
+    color: #355B6F;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4; /* 25px */
+}
+
+.priceItem1Line {
+    width: 100%;
+    height: 1px;
+    background: #CFE5EC;
+}

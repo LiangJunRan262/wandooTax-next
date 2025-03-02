@@ -1,0 +1,77 @@
+
+.container {
+    background-color: #F5F5F5;
+}
+
+.boxMain {
+    padding: 64px 0;
+}
+
+.Header2 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.toolList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.toolItem {
+    background: #FFFFFF;
+    width: 508px;
+    height: 224px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #fff;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.toolItem:hover {
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.06);
+    border: 1px solid var(--主色1, #55C1EA);
+}
+
+.right {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.toolItemTitle {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4; /* 25px */
+    margin-bottom: 8px;
+}
+
+.toolItemDescription {
+    color: #6F6F6F;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6; /* 22px */
+}
+
+.toolItemButton {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #999999;
+    border-radius: 103px;
+    width: 84px;
+    height: 33px;
+    cursor: pointer;
+}

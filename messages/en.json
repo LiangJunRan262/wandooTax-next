@@ -48,5 +48,47 @@
                 "description": "We’re not just here for your current tax needs—we want to be your long-term partner."
             }
         }
+    },
+    "knowUs": {
+        "knowUsTitle": "Know Us",
+        "GraceHao": {
+            "name": "Grace Hao",
+            "position": "CPA, Partner, Chief Auditor, Senior Tax Planner",
+            "description": "With 12 years of tax experience, Grace specializes in auditing and tax planning. As a Senior Auditor at one of the Big Four accounting firms, she is committed to ensuring tax compliance for both businesses and individuals."
+        },
+        "KnightWang": {
+            "name": "Knight Wang",
+            "position": "Senior Partner, Senior Tax Planner, Auditor",
+            "description": "With over 14 years in corporate finance, including 8 years in Canadian corporate tax, Knight focuses on tax planning and optimization, specializing in complex corporate tax filings."
+        },
+        "MichaelChen": {
+            "name": "Michael Chen",
+            "position": "Operations Manager, Tax Specialist, Senior Inspector at Cimpress.",
+            "description": "With over 6 years of experience, Michael ensures the quality control of tax-related operations at WandooTax. He specializes in personal income tax and complex tax situations, using his extensive experience to ensure accuracy and compliance."
+        },
+        "DominicWang": {
+            "name": "Dominic Wang",
+            "position": "Operations Assistant",
+            "description": "A Senior Product Manager at Trip.com Group Ltd with 7 years of experience in system design and software development, Dominic focuses on optimizing the tax filing process and enhancing user experience and efficiency."
+        }
+    },
+    "tool": {
+        "toolTitle": "Common Tools",
+        "childcare": {
+            "title": "Childcare and Family Benefits Calculator",
+            "description": "You can use this calculator to see what childcare and family benefits you are eligible for and how much you are entitled to."
+        },
+        "RRSP": {
+            "title": "RRSP Calculator",
+            "description": "See how much you can save in a Registered Retirement Savings Plan (RRSP)."
+        },
+        "car": {
+            "title": "Car Benefits Calculator",
+            "description": "You can use this calculator to see what car benefits you are eligible for and how much you are entitled to."
+        },
+        "salary": {
+            "title": "Salary Calculator",
+            "description": "The Canada Revenue Agency's online salary deduction calculator calculates all federal and provincial salary deductions based on the information you provide (salary, commission, pension, CPP contributions, EI)."
+        }
     }
 }
