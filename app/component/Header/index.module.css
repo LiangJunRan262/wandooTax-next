@@ -1,0 +1,32 @@
+.container {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.36) 0%, rgba(0, 0, 0, 0.36) 100%), #1B476E;
+}
+
+.headerMain {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.line {
+    background: rgba(255, 255, 255, 0.4);
+    width: 1px;
+    height: 11px;
+}
+
+.phone {
+    gap: 10px;
+}
+
+.email {
+    gap: 10px;
+}
+
+.channel {
+    gap: 24px;
+}

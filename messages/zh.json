@@ -1,0 +1,97 @@
+{
+    "greeting": "你好！",
+    "serviceClass": {
+        "serviceClassTitle": "服务分类",
+        "personalTitle": "个人税务（T1）",
+        "personalDescription": "帮助您整理税务信息、优化规划，确保合规并最大限度降低税务负担，涵盖收入、投资、房地产及海外资产等领域。",
+        "businessTitle": "企业税务（T2）",
+        "businessDescription": "协助整理和优化企业财务报表（包括资产负债表、损益表与现金流量表），确保按时申报并合规，降低税务负担与风险。",
+        "voluntaryDisclosureTitle": "自愿披露",
+        "voluntaryDisclosureDescription": "协助您主动向加拿大税务局（CRA）披露未申报的大额财产，解决因疏漏或误报导致的税务问题，降低可能产生的法律责任、罚款和利息，确保合规。",
+        "gstHstTitle": "GST/HST退税申报",
+        "gstHstDescription": "提供全面的GST/HST申报与规划服务，帮助您按时、准确地履行税务义务，优化税务负担，并确保合规，避免潜在税务风险。"
+    },
+    "industryClass": {
+        "industryTitle": "行业分类",
+        "student": "学生",
+        "broker": "经纪人",
+        "catering": "餐饮",
+        "engineer": "工程师",
+        "driver": "驾驶员",
+        "medical": "医护"
+    },
+    "commitment": {
+        "commitmentTitle": "服务承诺",
+        "list": {
+            "major": {
+                "title": "专业保障",
+                "description": "团队由注册会计师(CPA)组成，且拥有超过五年的四大会计事务所工作经验。我们提供个性化、精准的税务解决方案，确保每一项服务都符合最新的税法要求"
+            },
+            "convenient": {
+                "title": "高效便捷",
+                "description": "在线填写个人信息，简化资料提交过程，提升处理效率，确保及时完成申报与规划"
+            },
+            "transparent": {
+                "title": "透明沟通",
+                "description": "在每个服务环节，我们确保与客户保持清晰、透明的沟通，解答所有疑问，确保您了解每一步进展"
+            },
+            "maximize": {
+                "title": "最大化节税",
+                "description": "通过优化税务规划，我们致力于为客户最大限度地降低税务负担，保护您的财务利益"
+            },
+            "reasonable": {
+                "title": "合理价格",
+                "description": "我们提供高质量的税务服务，并确保价格合理透明，确保您获得物超所值的服务。"
+            },
+            "lasting": {
+                "title": "及时响应",
+                "description": "我们不仅关注眼前的税务需求，更致力于建立长期、稳定的合作关系，为您的未来提供持续的税务支持。"
+            }
+        }
+    },
+    "price": {
+        "priceTitle": "我们的价格"
+    },
+    "knowUs": {
+        "knowUsTitle": "认识我们",
+        "GraceHao": {
+            "name": "Grace Hao",
+            "position": "CPA，合伙人，首席审计师，高级税务规划师",
+            "description": "四大会计事务所高级审计师，12年税务经验，专注于审计和税务规划，确保企业和个人的税务合规性。"
+        },
+        "KnightWang": {
+            "name": "Knight Wang",
+            "position": "高级合伙人，高级税务规划师，审计师",
+            "description": "拥有超过14年公司财务经验，及8年加拿大公司税务经验，专注于企业税务规划与优化，擅长各种疑难杂症申报。"
+        },
+        "MichaelChen": {
+            "name": "Michael Chen",
+            "position": "税务师，运营经理，兼任美国Cimpress (Vista) 公司高级检察员",
+            "description": "拥有超过6年的税务经验，专注于个人所得税，擅长处理复杂税务情况，拥有丰富的实战经验和专业知识。"
+        },
+        "DominicWang": {
+            "name": "Dominic Wang",
+            "position": "运营助理",
+            "description": "曾任携程高级产品经理，7年系统设计及软件开发经验，专注于简化报税流程，提高用户提体验与效率。"
+        }
+    },
+    "tool": {
+        "toolTitle": "常用工具",
+        "childcare": {
+            "title": "儿童和家庭福利计算器",
+            "description": "你可以使用这个计算器来查看你可以获得哪些儿童和家庭福利以及你的补助金额是多少。"
+        },
+        "RRSP": {
+            "title": "RRSP 计算器",
+            "description": "查看您可以在注册退休储蓄计划 (RRSP) 中节省多少钱。"
+        },
+        "car": {
+            "title": "汽车福利计算器",
+            "description": "你可以使用这个计算器来查看你可以获得哪些汽车福利以及你的补助金额是多少。"
+        },
+        "salary": {
+            "title": "工资计算器",
+            "description": "加拿大税务局的工资扣除额在线计算器根据您提供的信息（工资、佣金、养老金、CPP 供款、EI）计算所有省份和地区的联邦和省级工资扣除额 。"
+        }
+    }
+}
