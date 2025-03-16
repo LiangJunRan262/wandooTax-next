@@ -9,7 +9,6 @@ export default function KnowUs() {
             <div className='flex'>
                 <div className={styles.left}>
                     <div className={`flex ${styles.leftItem}`}>
-                        {/* <div className={styles.staffImg}></div> */}
                         <div className={styles.staffInfo}>
                             <div className={styles.staffName}>{t('GraceHao.name')}</div>
                             <div className={styles.staffJob}>{t('GraceHao.position')}</div>
@@ -17,7 +16,6 @@ export default function KnowUs() {
                         </div>
                     </div>
                     <div className={`flex ${styles.leftItem}`}>
-                        {/* <div className={styles.staffImg}></div> */}
                         <div className={styles.staffInfo}>
                             <div className={styles.staffName}>{t('KnightWang.name')}</div>
                             <div className={styles.staffJob}>{t('KnightWang.position')}</div>
@@ -25,7 +23,6 @@ export default function KnowUs() {
                         </div>
                     </div>
                     <div className={`flex ${styles.leftItem}`}>
-                        {/* <div className={styles.staffImg}></div> */}
                         <div className={styles.staffInfo}>
                             <div className={styles.staffName}>{t('MichaelChen.name')}</div>
                             <div className={styles.staffJob}>{t('MichaelChen.position')}</div>
@@ -33,7 +30,6 @@ export default function KnowUs() {
                         </div>
                     </div>
                     <div className={`flex ${styles.leftItem}`}>
-                        {/* <div className={styles.staffImg}></div> */}
                         <div className={styles.staffInfo}>
                             <div className={styles.staffName}>{t('DominicWang.name')}</div>
                             <div className={styles.staffJob}>{t('DominicWang.position')}</div>

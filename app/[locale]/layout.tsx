@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 import '../globals.css'
 import Header from "@/app/component/Header";
+import Nav from "@/app/component/Nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,13 +21,20 @@ export default async function RootLayout({
   const locale = await getLocale();
   const messages = await getMessages();
 
-  console.log('locale', locale);
+  console.log(locale);
 
   return (
     <html lang={locale}>
       <NextIntlClientProvider messages={messages}>
         <body className={inter.className}>
-          <Header />
+          <div className="" style={{
+            position: 'fixed',
+            zIndex: 9999,
+            width: '100%',
+          }}>
+            <Header />
+            <Nav />
+          </div>
           {children}
         </body>
       </NextIntlClientProvider>

@@ -1,0 +1,51 @@
+.container {
+    width: 1440px;
+    height: 747px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.bannerMain {
+    height: 747px;
+    background-size: cover;
+}
+
+.bannerCon {
+    padding-top: 237px;
+}
+
+.bannerTxt {
+    color: #FFFFFF;
+    font-family: "Alibaba PuHuiTi 3.0";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.4; /* 53px */
+}
+
+.bannerTxt span {
+    color: #FFC632;
+}
+
+.btnList {
+    margin-top: 33px;
+    gap: 16px;
+}
+
+.btnItem {
+    cursor: pointer;
+    width: 160px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 61px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: center;
+}
+
+.btnItem1 {
+    background: rgba(0, 0, 0, 0.40);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}

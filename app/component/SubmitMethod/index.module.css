@@ -1,0 +1,71 @@
+.container {
+    background-color: #fff;
+    line-height: 1.4;
+}
+
+.boxMain {
+    padding: 64px 0;
+}
+
+.Header2 {
+    padding-bottom: 32px;
+}
+
+.list {
+   gap: 24px; 
+}
+
+.item {
+    position: relative;
+    width: 332px;
+    height: 271px;
+    padding: 16px;
+    background: #FAFAFA;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.numberBg {
+    position: absolute;
+    top: 7px;
+    left: 16px;
+    color: #355B6F;
+    font-family: "Alimama FangYuanTi VF";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2; /* 43px */
+    opacity: 0.10;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.itemTitle {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.itemTxt {
+    color: #6F6F6F;
+    font-size: 14px;
+    text-align: center;
+}
+
+.star {
+    color: #1B476E;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 12px;
+    gap: 6px;
+}
+
+.star span {
+    margin-right: 6px;
+}
+

@@ -1,0 +1,97 @@
+.container {
+    background: #FAFAFA;
+    line-height: 1.4; /* 25px */
+}
+
+.boxMain {
+    padding: 64px 0;
+}
+
+.Header2 {
+    margin-bottom: 54px;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn>div {
+    width: 52px;
+    height: 36px;
+    border: 1px solid #212121;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.item {
+    width: 288px;
+    height: 375px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 12px 16px;
+    flex-direction: column;
+}
+
+.con {
+    padding: 12px;
+}
+
+.name {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.taxList {
+    font-size: 14px;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.line {
+    height: 12px;
+    width: 1px;
+    background-color: #999999;
+    margin: 0 6px;
+}
+
+.userInfo {
+    color: #666666;
+    line-height: 1.6;
+}
+
+.itemBottom {
+    margin-top: auto;
+    width: 100%;
+    background: #F0FAFD;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 16px 24px;
+}
+
+.listItem {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.listItem+.listItem {
+    margin-top: 10px; 
+}
+
+.listItem span {
+    color: #1B476E;
+    font-weight: 500;
+}

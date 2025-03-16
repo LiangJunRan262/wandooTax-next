@@ -12,24 +12,24 @@ export default function IndustryClass() {
             src: '/images/student.png',
         },
         {
-            title: t('broker'), 
-            src: '/images/student.png',
+            title: t('staff'), 
+            src: '/images/staff.png',
         },
         {
-            title: t('catering'),
-            src: '/images/student.png',
+            title: t('agents'),
+            src: '/images/agents.png',
         },
         {
-            title: t('engineer'),
-            src: '/images/student.png',
+            title: t('accommodation'),
+            src: '/images/accommodation.png',
         },
         {
-            title: t('driver'),
-            src: '/images/student.png',
+            title: t('engineers'),
+            src: '/images/engineers.png',
         },
         {
-            title: t('medical'),
-            src: '/images/student.png',
+            title: t('drivers'),
+            src: '/images/drivers.png',
         }
     ]
     

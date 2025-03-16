@@ -1,5 +1,13 @@
 {
     "greeting": "Hello!",
+    "nav": {
+        "home": "Home",
+        "service": "Services",
+        "aboutUs": "About Us",
+        "taxResources": "Tax Resources",
+        "contactUs": "Contact Us",
+        "language": "语言"
+    },
     "serviceClass": {
         "serviceClassTitle": "Services",
         "personalTitle": "Personal Tax Services (T1)",
@@ -14,10 +22,11 @@
     "industryClass": {
         "industryTitle": "Industries",
         "student": "Students",
-        "broker": "Agents",
-        "catering": "Catering",
-        "engineer": "Engineers",
-        "driver": "Drivers",
+        "agents": "Agents",
+        "staff": "Staff",
+        "accommodation": "Accommodation",
+        "engineers": "Engineers",
+        "drivers": "Drivers",
         "medical": "Medical"
     },
     "commitment": {
@@ -48,6 +57,13 @@
                 "description": "We’re not just here for your current tax needs—we want to be your long-term partner."
             }
         }
+    },
+    "process": {
+        "title": "服务流程",
+        "step1": "Book appointment",
+        "step2": "Collet info & prepare tax ",
+        "step3": "Review & sign",
+        "step4": "Pay & Efile"
     },
     "knowUs": {
         "knowUsTitle": "Know Us",
@@ -89,6 +105,21 @@
         "salary": {
             "title": "Salary Calculator",
             "description": "The Canada Revenue Agency's online salary deduction calculator calculates all federal and provincial salary deductions based on the information you provide (salary, commission, pension, CPP contributions, EI)."
+        }
+    },
+    "submitMethod": {
+        "title": "提交方式",
+        "online": {
+            "title": "Online Submission",
+            "description": "Submit your tax documents anytime via our secure online platform, available 24/7 for your convenience"
+        },
+        "email": {
+            "title": "Email Submission",
+            "description": "Request an encrypted PDF of your tax forms from us, then securely email it back"
+        },
+        "fastMail": {
+            "title": "Drop-off",
+            "description": "Drop off your sealed tax documents at our designated office drop-boxes to ensure secure delivery."
         }
     }
 }

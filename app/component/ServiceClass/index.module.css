@@ -3,7 +3,8 @@
 }
 
 .serviceClassMain {
-    padding: 56px 0 16px;
+    padding: 56px 0 56px;
+    line-height: 1.4; /* 25px */
 }
 
 .serviceClass {
@@ -38,16 +39,13 @@
 
 .itemTitle {
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 1.4; /* 25px */
     text-align: center;
 }
 
 .itemDescription {
     color: #6F6F6F;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5; /* 21px */
     text-align: justify;
@@ -59,7 +57,6 @@
 
 .line {
     width: 28px;
-height: 4px;
-background: #E5E5E5;
-/* margin: 16px 0; */
+    height: 4px;
+    background: #E5E5E5;
 }

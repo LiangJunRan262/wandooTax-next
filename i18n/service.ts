@@ -17,10 +17,12 @@ export async function getUserLocale() {
   // 解析请求头
   const parsedLocale = acceptLanguage?.split(',')[0].split('-')[0] || '';
 
+  console.log('parsedLocale', parsedLocale);
+
   // 如果不在系统支持的语言列表，使用默认语言
   return locales.includes(parsedLocale) ? parsedLocale : defaultLocale;
 }
 
-export async function setUserLocale(locale = defaultLocale) {
-  (await cookies()).set(COOKIE_NAME, locale);
-}
+// export async function setUserLocale(locale = defaultLocale) {
+//   (await cookies()).set(COOKIE_NAME, locale);
+// }
