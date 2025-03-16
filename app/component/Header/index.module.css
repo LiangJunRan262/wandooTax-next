@@ -1,5 +1,7 @@
 .container {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.36) 0%, rgba(0, 0, 0, 0.36) 100%), #1B476E;
+    transition: background 0.3s ease;
+    line-height: 1.4; /* 22px */
 }
 
 .headerMain {
@@ -11,6 +13,14 @@
     display: flex;
     align-items: center;
     gap: 32px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
 }
 
 .line {
@@ -28,5 +38,37 @@
 }
 
 .channel {
+    height: 100%;
     gap: 24px;
+}
+
+.channelItem {
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+}
+
+.channelItem:hover .channelPopup {
+    display: block;
+}
+
+.channelPopup {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 30px;
+    padding-top: 5px;
+    transform: translateX(-20px);
+    min-width: 100%;
+    box-sizing: content-box;
+}
+
+.channelPopupCon {
+    width: max-content;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 16px 26px;
+    color: #006296;
+    font-size: 16px;
+    font-weight: 500;
 }

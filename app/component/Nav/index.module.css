@@ -1,0 +1,155 @@
+.container {
+    background: transparent;
+    transition: background 0.3s ease;
+}
+
+.container {
+    height: 57px;
+    background: rgba(0, 0, 0, 0.60);
+    display: flex;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.navMain {
+    padding-top: 5px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+}
+
+.topTriangle {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+}
+
+.logo {
+    margin-top: -8px;
+    margin-right: 40px;
+}
+
+.navList {
+    flex: 1;
+    height: 100%;
+    gap: 32px;
+}
+
+.navItem {
+    position: relative;
+    height: 100%;
+}
+
+.navItem:hover .navPopup {
+    display: block;
+}
+
+.navItemCon {
+    height: 100%;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.navItemTxt {
+    position: relative;
+    height: 100%;
+}
+
+.active .activeLine {
+    display: block;
+}
+
+.activeLine {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: #FFFFFF;
+}
+
+.language {
+    height: 100%;
+    cursor: pointer;
+}
+
+.language span {
+    margin-left: 8px;
+    margin-right: 4px;
+}
+
+.navPopup {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 52px;
+    padding-top: 5px;
+    transform: translateX(-20px);
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 100%;
+    box-sizing: content-box;
+}
+
+.navPopupTopTriangle {
+    position: relative;
+}
+
+.navPopup .navPopupCon {
+    margin-left: -20px;
+    margin-right: -20px;
+    align-items: flex-start;
+    padding: 26px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-size: 16px;
+    gap: 56px;
+    color: #000000;
+}
+
+.navPopupList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: max-content;
+}
+
+.navPopupListTit {
+    cursor: pointer;
+    color: #999999;
+    font-size: 14px;
+}
+
+.navPopupListTxt {
+    cursor: pointer;
+}
+
+.navPopupListTxt:hover {
+    color: #006296;
+    font-weight: 500;
+}
+
+.isScrolled.container {
+    background-color: #EFF1F3;
+    color: #000;
+}
+
+.isScrolled .triangle {
+    border-top: 6px solid #000;
+}
+
+.isScrolled .active .navItemTxt {
+    color: #006296;
+}
+
+.isScrolled .activeLine {
+    background-color: #006296;
+}

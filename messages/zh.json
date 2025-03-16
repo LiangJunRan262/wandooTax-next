@@ -1,5 +1,13 @@
 {
     "greeting": "你好！",
+    "nav": {
+        "home": "首页",
+        "service": "服务分类",
+        "aboutUs": "关于我们",
+        "taxResources": "资源",
+        "contactUs": "联系我们",
+        "language": "语言"
+    },
     "serviceClass": {
         "serviceClassTitle": "服务分类",
         "personalTitle": "个人税务（T1）",
@@ -14,10 +22,11 @@
     "industryClass": {
         "industryTitle": "行业分类",
         "student": "学生",
-        "broker": "经纪人",
-        "catering": "餐饮",
-        "engineer": "工程师",
-        "driver": "驾驶员",
+        "agents": "经纪人",
+        "staff": "职员",
+        "accommodation": "餐饮",
+        "engineers": "工程师",
+        "drivers": "驾驶员",
         "medical": "医护"
     },
     "commitment": {
@@ -25,7 +34,7 @@
         "list": {
             "major": {
                 "title": "专业保障",
-                "description": "团队由注册会计师(CPA)组成，且拥有超过五年的四大会计事务所工作经验。我们提供个性化、精准的税务解决方案，确保每一项服务都符合最新的税法要求"
+                "description": "团队由注册会计师(CPA)组成，且拥有超过五年的四大会计事务所工作经验。我们提供个性化、精准的税务解决方案，确保每一项服务都符合最新的税法要求。"
             },
             "convenient": {
                 "title": "高效便捷",
@@ -51,6 +60,13 @@
     },
     "price": {
         "priceTitle": "我们的价格"
+    },
+    "process": {
+        "title": "服务流程",
+        "step1": "预约会计师",
+        "step2": "沟通与报税准备",
+        "step3": "确认税表与签署",
+        "step4": "付款并Efile提交"
     },
     "knowUs": {
         "knowUsTitle": "认识我们",
@@ -92,6 +108,21 @@
         "salary": {
             "title": "工资计算器",
             "description": "加拿大税务局的工资扣除额在线计算器根据您提供的信息（工资、佣金、养老金、CPP 供款、EI）计算所有省份和地区的联邦和省级工资扣除额 。"
+        }
+    },
+    "submitMethod": {
+        "title": "提交方式",
+        "online": {
+            "title": "在线提交",
+            "description": "通过我们的网站，7*24小时<br />在线提交材料，灵活方便，及时准确"
+        },
+        "email": {
+            "title": "邮件提交",
+            "description": "接受以电子邮件的形式<br />将报税材料邮件发送给我们"
+        },
+        "fastMail": {
+            "title": "指定投放",
+            "description": "接受以纸质材料的形式<br />投入指定的地址"
         }
     }
 }
