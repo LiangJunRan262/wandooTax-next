@@ -14,7 +14,9 @@ export default function SubmitMethod() {
                     <div className={styles.itemTitle}>{t.rich('online.title', {
                         value: '在线提交'
                     })}</div>
-                    <div className={styles.itemTxt}>{t('online.description')}</div>
+                    <div className={styles.itemTxt}>{t.rich('online.description', {
+                        br: '\n',
+                    })}</div>
                     <div className={`flex ${styles.star}`}>
                         <span>强烈推荐</span>
                         <Image className={styles.starIcon} src="/icons/starIcon.svg" width={20} height={20} alt='starIcon'/>
@@ -28,7 +30,9 @@ export default function SubmitMethod() {
                     <div className={styles.itemTitle}>{t.rich('email.title', {
                         value: '在线提交'
                     })}</div>
-                    <div className={styles.itemTxt}>{t('email.description')}</div>
+                    <div className={styles.itemTxt}>{t.rich('email.description', {
+                        br: '\n',
+                    })}</div>
                     <div className={`flex ${styles.star}`}>
                         <span>比较推荐</span>
                         <Image className={styles.starIcon} src="/icons/starIcon.svg" width={20} height={20} alt='starIcon'/>
@@ -42,7 +46,9 @@ export default function SubmitMethod() {
                     <div className={styles.itemTitle}>{t.rich('fastMail.title', {
                         value: '在线提交'
                     })}</div>
-                    <div className={styles.itemTxt}>{t('fastMail.description')}</div>
+                    <div className={styles.itemTxt}>{t.rich('fastMail.description', {
+                        br: '\n',
+                    })}</div>
                     <div className={`flex ${styles.star}`}>
                         <span>一般推荐</span>
                         <Image className={styles.starIcon} src="/icons/starIcon.svg" width={20} height={20} alt='starIcon'/>

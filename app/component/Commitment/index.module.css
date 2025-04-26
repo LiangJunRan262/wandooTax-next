@@ -61,12 +61,13 @@
 }
 
 .item1 {
-    width: 300px;
-    top: 12px;
-    left: 66px;
+    width: 380px;
+    top: 7px;
+    left: -7px;
 }
 
 .item2 {
+    width: 300px;
     top: 32px;
     right: 76px;
 }

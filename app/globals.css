@@ -1,3 +1,4 @@
+@import './iconfont.css';
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -76,6 +77,11 @@ a {
   align-items: center;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .Header2 {
   color: #000000;
   font-size: 24px;
@@ -84,3 +90,12 @@ a {
   line-height: 1.4; /* 34px */
   text-align: center;
 }
+
+.hideScrollIndicator {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hideScrollIndicator::-webkit-scrollbar {
+  display: none;
+}
+

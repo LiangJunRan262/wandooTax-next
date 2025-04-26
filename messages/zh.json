@@ -114,15 +114,15 @@
         "title": "提交方式",
         "online": {
             "title": "在线提交",
-            "description": "通过我们的网站，7*24小时<br />在线提交材料，灵活方便，及时准确"
+            "description": "通过我们的网站，7*24小时{br}在线提交材料，灵活方便，及时准确"
         },
         "email": {
             "title": "邮件提交",
-            "description": "接受以电子邮件的形式<br />将报税材料邮件发送给我们"
+            "description": "接受以电子邮件的形式{br}将报税材料邮件发送给我们"
         },
         "fastMail": {
             "title": "指定投放",
-            "description": "接受以纸质材料的形式<br />投入指定的地址"
+            "description": "接受以纸质材料的形式{br}投入指定的地址"
         }
     }
 }

@@ -119,7 +119,8 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: max-content;
+    min-width: max-content;
+    width: 102px;
 }
 
 .navPopupListTit {
@@ -133,7 +134,7 @@
 }
 
 .navPopupListTxt:hover {
-    color: #006296;
+    color: #006296 !important;
     font-weight: 500;
 }
 

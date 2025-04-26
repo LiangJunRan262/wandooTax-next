@@ -1,7 +1,6 @@
 .container {
     line-height: 1.4;
-    /* height: 590px; */
-    background: linear-gradient(180.00002deg, rgba(85, 193, 234, 0.00) 5%, rgba(85, 193, 234, 0.06) 67%, rgba(85, 193, 234, 0.00) 97%), #FFFFFF;
+    background: linear-gradient(180.00002deg, rgba(85, 193, 234, 0.00) 5%, rgba(85, 193, 234, 0.06) 67%, rgba(85, 193, 234, 0.00) 100%), #FFFFFF;
 }
 
 .boxMain {
@@ -40,7 +39,7 @@
 
 .itemCon {
     width: 246px;
-    padding: 60px 0;
+    padding: 40px 0;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
     border-radius: 8px;

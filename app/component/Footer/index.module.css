@@ -43,6 +43,7 @@
 }
 
 .right {
+    align-items: flex-start;
     width: 602px;
     gap: 96px;
     font-weight: 300;
